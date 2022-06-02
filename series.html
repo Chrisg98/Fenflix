@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/series.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="./img/pochoclos.png">
+    <title>Series</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="icono" src="./img/pochoclos.png">
+            <h1 class="titulo">Fenflix</h1>
+        </div>
+        <nav class="menu">
+            <a class="textoMenu" href="movies.html">Peliculas</a>
+            <a class="textoMenu" href="series.html"><b>Series</b></a>
+            <img src="./img/cart.png" class="cart" onclick="theCart()">
+        </nav>
+    </header>
+    <div class="animate__animated animate__backInLeft"">
+        <h1 class=" tituloVideo">Series</h1>
+    </div>
+    <div class="video">
+        <video width="1200vw" height="700vw" controls>
+            <source src="./video/She Hulk.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- -------------------------Catalogo de series---------------------- --->
+    <div class="catalogo">
+        <img src="./img/Aang.png" height="120px">
+        <h1 class="tituloCatalogo">Nuestras series</h1>
+        <img src="./img/Aang.png" height="120px">
+    </div>
+    <!-- -----------------------------Carta1---------------------- --->
+    <div class="elCatalogo">
+    <div class="catalogo">
+        <div class="card">
+            <div class="face front">
+                <img src="./img/how i met your mother.jpg" alt="">
+                <h3>How i met your mother</h3>
+            </div>
+            <div class="face back">
+                <h3>How i met your mother</h3>
+                <p>Ted se ha enamorado. Todo comenzó cuando su mejor amigo, Marshall confiesa que planea proponerle
+                    matrimonio a su novia de muchos años Lily, una profesora del jardín infantil. De repente, Ted se da
+                    cuenta que tiene tomar acción para encontrar el amor verdadero.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------Carta2---------------------- --->
+        <div class="card">
+            <div class="face front">
+                <img src="./img/Peacky.jpg" alt="">
+                <h3>Peaky Blinders</h3>
+            </div>
+            <div class="face back">
+                <h3>Peaky Blinders</h3>
+                <p>Gran Bretaña vive la posguerra. Los soldados regresan, se acuñan nuevas revoluciones y nacen bandas
+                    criminales en una nación agitada. En Birmingham, una pandilla de gánsters callejeros asciende hasta
+                    convertirse en los reyes de la clase obrera.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------------Carta3---------------------- --->
+        <div class="card">
+            <div class="face front">
+                <img src="./img/la casa de papel.jpeg" alt="">
+                <h3>La casa de papel</h3>
+            </div>
+            <div class="face back">
+                <h3>La casa de papel</h3>
+                <p>Una banda organizada de ladrones se propone cometer el atraco del siglo en la Fábrica Nacional de
+                    Moneda y Timbre. Cinco meses de preparación quedarán reducidos a once días para poder llevar a cabo
+                    con éxito el gran golpe.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="botonesAlquilar">
+        <button onclick="howIMetYourMother()">Alquilar</button>
+        <button onclick="peakyBlinders()">Alquilar</button>
+        <button onclick="CasaDePapel()">Alquilar</button>
+    </div>
+    <!-- ---------------------------Carta4---------------------- --->
+    <div class="catalogo">
+        <div class="card">
+            <div class="face front">
+                <img src="./img/anatomy.jpg" alt="">
+                <h3>Grey's Anatomy</h3>
+            </div>
+            <div class="face back">
+                <h3>Grey's Anatomy</h3>
+                <p>Un drama que se enfoca en el personaje de Merdith Grey, una integrante de un grupo de doctores
+                    jóvenes en el hospital de Seattle. La hija de una famosa cirujana, que lucha para mantener sus
+                    relaciones con sus colegas.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------Carta5---------------------- --->
+        <div class="card">
+            <div class="face front">
+                <img src="./img/arrow.jpg" alt="">
+                <h3>Arrow</h3>
+            </div>
+            <div class="face back">
+     
+                <h3>Arrow</h3>
+                <p>Este personaje es una clase de super héroe que trata de corregir los errores de su familia y
+                    restaurar la gloria que tenía la ciudad previamente, su misión se complica por el padre de Laurel,
+                    quien es el detective Quentin Lance y está determinado a poner al vigilante en la cárcel.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------Carta6---------------------- --->
+        <div class="card">
+            <div class="face front">
+                <img src="./img/friends.webp" alt="">
+                <h3>Friends</h3>
+            </div>
+            <div class="face back">
+                <h3>Friends</h3>
+                <p>Tres hombres y tres mujeres jóvenes son mejores amigos y viven en el mismo conjunto de apartamentos.
+                    Ellos enfrentan la vida y el amor en la ciudad de Nueva York y se involucran en los asuntos
+                    personales de los demás.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="botonesAlquilar">
+        <button onclick="greysAnatomy()">Alquilar</button>
+        <button onclick="arrow()">Alquilar</button>
+        <button onclick="friends()">Alquilar</button>
+    </div>
+
+
+    <!-- ---------------------------Carta7---------------------- --->
+    <div class="catalogo">
+        <div class="card">
+            <div class="face front">
+                <img src="./img/game of thrones.jpg" alt="">
+                <h3>Game of Thrones</h3>
+            </div>
+            <div class="face back">
+                <h3>Game of Thrones</h3>
+                <p>Es la descripción de dos familias poderosas, reyes y reinas, caballeros y renegados, hombres falsos y
+                    honestos, haciendo parte de un juego mortal por el control de los Siete Reinados de Westeros y por
+                    sentarse en el trono más alto.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------Carta8---------------------- --->
+        <div class="card">
+            <div class="face front">
+                <img src="./img/breaking bad.webp" alt="">
+                <h3>Breaking Bad</h3>
+            </div>
+            <div class="face back">
+                <h3>Breaking Bad</h3>
+                <p>Un profesor de química con cáncer terminal se asocia con un exalumno suyo para fabricar y vender
+                    metanfetamina a fin de que su familia no pase apuros económicos. Ve todo lo que quieras.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------Carta9---------------------- --->
+        <div class="card">
+            <div class="face front">
+                <img src="./img/los-100.jpg" alt="">
+                <h3>The 100</h3>
+            </div>
+            <div class="face back">
+                <h3>The 100</h3>
+                <p>Un apocalipsis nuclear destruye la vida humana en la Tierra. Los únicos supervivientes son los
+                    habitantes de las estaciones espaciales internacionales. Tres generaciones después, la escasez de
+                    recursos los obliga a tomar medidas desesperadas.</p>
+                <div class="link">
+                    <a href="#">Sinopsis</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="botonesAlquilar">
+        <button onclick="gameOfThrones()">Alquilar</button>
+        <button onclick="BreakingBad()">Alquilar</button>
+        <button onclick="The100()">Alquilar</button>
+    </div>
+</div>
+    <footer class="footer">
+        <div>
+            <p id="cristian">Christian Garcia</p>
+            <p id="lucas">Lucas Esttamatti</p>
+            <div class="socialCristian">
+                <a href="https://www.instagram.com/chris_gaarcia/" target="_blank"><img src="./img/instagram.png"
+                        class="social" id="igCristian" alt="" /></a>
+                <a href="https://github.com/Chrisg98" target="_blank">
+                    <img src="./img/gitHub.png" class="social" id=gitCristian /></a>
+            </div>
+            <div class="socialLucas">
+                <a href="https://www.instagram.com/esttamatti._/" target="_blank">
+                    <img src="./img/instagram.png" class="social" id=igLucas /></a>
+                <a href="https://github.com/LucasEsttamatti" target="_blank">
+                    <img src="./img/gitHub.png" class="social" id=gitLucas />
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./Js/series.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

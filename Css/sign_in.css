@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Catamaran:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(21 32 43);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'Aldrich', sans-serif;
+    color: #84b6f4;
+    font-size: 5vh;
+}
+
+.tituloFormulario {
+    font-size: 12vh;
+    color: #84b6f4;
+    font-family: 'Aldrich', sans-serif;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.icono {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.titulo {
+    display: flex;
+    font-family: 'Aldrich', sans-serif;
+    color: #84b6f4;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.titulo:hover {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #84b6f4;
+
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+#welcome {
+    color: #84b6f4;
+    font-family: 'Aldrich', sans-serif;
+
+}
+
+#box {
+    position: absolute;
+    height: 50vh;
+    width: 40vw;
+    background-color: rgb(21 32 43);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputs {
+    background-color: rgb(21 32 43);
+    border: 1px #84b6f4 solid;
+    color: rgb(21 32 43);
+    height: 60px;
+    width: 275px;
+    color: #84b6f4;
+    border-radius: 10%;
+    margin: 5px;
+    font-size: medium;
+    font-family: 'Aldrich', sans-serif;
+}
+
+#login {
+    width: 560px;
+    font-size: 35px;
+}
+
+#login:hover {
+    background-color: #ffffff;
+    color: #84b6f4;
+}
+
+::placeholder {
+    color: #84b6f4;
+    font-size: large;
+    font-family: 'Aldrich', sans-serif;
+
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    font-size: 45px;
+    font-family: 'Odibee Sans', cursive;
+    color: #84b6f4;
+    margin-top: 500px;
+}
+
+#socialMedia {
+    margin-top: 5vh;
+    margin-left: 33vw;
+}
+
+#cristian {
+    height: 0;
+    margin-top: 0;
+    margin-left: 20vw;
+}
+
+#lucas {
+    height: 0;
+    margin-top: 0;
+    margin-left: 60vw;
+}
+
+.social {
+    height: 10vh;
+    margin-top: 8vh;
+}
+
+.socialLucas {
+    height: 0px;
+    margin-left: 135vh;
+}
+
+.socialCristian {
+    height: 0px;
+    margin-left: 51vh;
+}
+
+/* ALERTAS */
+
+.swal-title {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 30px;
+}
+
+.swal-text {
+    text-align: center;
+    color: black;
+    font-size: 23px;
+    font-family: 'Odibee Sans', cursive;
+
+}
+
+.swal-button {
+    background-color: rgb(21 32 43);
+    color: #84b6f4;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.swal-modal {
+    border: 4px solid #4384d3;
+}
+
+.swal-button:hover {
+    background-color: #84b6f4;
+    color: rgb(21 32 43);
+}

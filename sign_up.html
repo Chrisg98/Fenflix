@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/sign_up.css">
+  <link rel="icon" href="./img/pochoclos.png">
+  <title>Registrarse</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img class="icono" src="./img/pochoclos.png">
+      <h1 class="titulo">Fenflix</h1>
+    </div>
+  </header>
+  <div>
+    <section>
+      <div id="box">
+        <form id="formRegister">
+          <h1 class="registro">Registrate</h1>
+          <input type="text" class="inputs" id="name" placeholder="Ingrese su nombre" required />
+          <input type="text" class="inputs" id="lastName" placeholder="Ingrese su apellido" required />
+          <input type="email" class="inputs" id="email" placeholder="Ingrese su Email" required />
+          <input type="password" class="inputs" id="password" placeholder="Ingrese su constraseña" required />
+          <input type="password" class="inputs" id="password2" placeholder="Reingrese su constraseña" required />
+          <input type="date" class="inputs" id="date" required />
+          <button type="submit" class="inputs" id="register">Registrate</button>
+
+        </form>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div>
+      <p id="cristian">Christian Garcia</p>
+      <p id="lucas">Lucas Esttamatti</p>
+      <div class="socialCristian">
+        <a href="https://www.instagram.com/chris_gaarcia/" target="_blank"><img src="./img/instagram.png" class="social"
+            id="igCristian" alt="" /></a>
+        <a href="https://github.com/Chrisg98" target="_blank">
+          <img src="./img/gitHub.png" class="social" id=gitCristian /></a>
+      </div>
+      <div class="socialLucas">
+        <a href="https://www.instagram.com/esttamatti._/" target="_blank">
+          <img src="./img/instagram.png" class="social" id=igLucas /></a>
+        <a href="https://github.com/LucasEsttamatti" target="_blank">
+          <img src="./img/gitHub.png" class="social" id=gitLucas />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="./Js/sign_up.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

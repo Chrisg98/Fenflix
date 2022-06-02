@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/movies.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="icon" href="./img/pochoclos.png">
+  <title>Peliculas</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img class="icono" src="./img/pochoclos.png">
+      <h1 class="titulo">Fenflix</h1>
+    </div>
+
+    <nav class="menu">
+      <a class="textoMenu" href="movies.html"><b>Peliculas</b></a>
+      <a class="textoMenu" href="series.html">Series</a>
+      <img src="./img/cart.png" class="cart" onclick="theCart()">
+    </nav>
+  </header>
+  <div class="animate__animated animate__backInLeft"">
+    <h1 class=" tituloVideo">Peliculas</h1>
+  </div>
+  <div class="video">
+    <video width="1200vw" height="700vw" controls>
+      <source src="./video/Doctor Strange.mp4" type="video/mp4">
+    </video>
+  </div>
+  <!-- -------------------------Catalogo de Peliculas---------------------- --->
+  <div class="catalogo">
+    <img src="./img/Spiderman.png" height="120px">
+    <h1 class="tituloCatalogo">Nuestras Peliculas</h1>
+    <img src="./img/Spiderman.png" height="120px">
+  </div>
+  <!-- -----------------------------Carta1---------------------- --->
+  <div class="elCatalogo">
+  <div class="catalogo">
+    <div class="card">
+      <div class="face front">
+        <img src="./img/et.jpg" alt="">
+        <h3>ET</h3>
+      </div>
+      <div class="face back">
+        <h3>ET</h3>
+        <p>Un pequeño extraterrestre de otro planeta queda abandonado en la Tierra cuando su nave se olvida de él.</p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------Carta2---------------------- --->
+    <div class="card">
+      <div class="face front">
+        <img src="./img/batman.jpg" alt="">
+        <h3>Batman</h3>
+      </div>
+      <div class="face back">
+        <h3>Batman</h3>
+        <p>En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y
+          el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como
+          "el Acertijo".</p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------Carta3---------------------- --->
+    <div class="card">
+      <div class="face front">
+        <img src="./img/it.jpg" alt="">
+        <h3>IT</h3>
+      </div>
+      <div class="face back">
+        <h3>IT</h3>
+        <p>Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que
+          adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.
+        </p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="botonesAlquilar">
+    <button onclick="et()">Alquilar</button>
+    <button onclick="batman()">Alquilar</button>
+    <button onclick="it()">Alquilar</button>
+  </div>
+  <!-- ---------------------------Carta4---------------------- --->
+  <div class="catalogo">
+    <div class="card">
+      <div class="face front">
+        <img src="./img/proyecto_x.jpg" alt="">
+        <h3>Proyecto X</h3>
+      </div>
+      <div class="face back">
+        <h3>Proyecto X</h3>
+        <p>Tres estudiantes de secundaria deciden organizar una fiesta salvaje en casa de uno de ellos, aprovechando que
+          sus padres no están. Quieren hacer que la fiesta sea inolvidable, así que deciden grabarlo todo</p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------Carta5---------------------- --->
+    <div class="card">
+      <div class="face front">
+        <img src="./img/toy_history.jpg" alt="">
+        <h3>Toy History</h3>
+      </div>
+      <div class="face back">
+        <h3>Toy History</h3>
+        <p>Los juguetes de Andy, un niño de seis años, temen que un nuevo regalo les sustituya en el corazón de su
+          dueño.</p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------Carta6---------------------- --->
+    <div class="card">
+      <div class="face front">
+        <img src="./img/spider_man.webp" alt="">
+        <h3>SpiderMan</h3>
+      </div>
+      <div class="face back">
+        <h3>SpiderMan</h3>
+        <p>Luego de sufrir la picadura de una araña genéticamente modificada, un estudiante de secundaria tímido y torpe
+          adquiere increíbles capacidades como arácnido.</p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="botonesAlquilar">
+    <button onclick="proxectoX()">Alquilar</button>
+    <button onclick="toyStory ()">Alquilar</button>
+    <button onclick="spiderMan()">Alquilar</button>
+  </div>
+
+
+  <!-- ---------------------------Carta7---------------------- --->
+  <div class="catalogo">
+    <div class="card">
+      <div class="face front">
+        <img src="./img/los juegos del hambre.jpg" alt="">
+        <h3>Los Juegos Del Hambre</h3>
+      </div>
+      <div class="face back">
+        <h3>Los Juegos Del Hambre</h3>
+        <p>Para demostrar su poder, el régimen del estado totalitario de Panem organiza cada año "Los juegos del
+          hambre". En ellos, 24 jóvenes compiten el uno contra el otro en una batalla en la que solo puede haber un
+          superviviente.</p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------Carta8---------------------- --->
+    <div class="card">
+      <div class="face front">
+        <img src="./img/jurassic_world.jpg" alt="">
+        <h3>Jurassic World</h3>
+      </div>
+      <div class="face back">
+        <h3>Jurassic World</h3>
+        <p>Han pasado 22 años desde que el millonario John Hammond clonara el primer dinosaurio. Con tecnologías
+          mejoradas y nuevas medidas de seguridad, el parque temático "Jurassic World" abre sus puertas.</p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------Carta9---------------------- --->
+    <div class="card">
+      <div class="face front">
+        <img src="./img/regreso_al_futuro.jpg" alt="">
+        <h3>Volver Al Futuro</h3>
+      </div>
+      <div class="face back">
+        <h3>Volver al futuro</h3>
+        <p>El adolescente Marty McFly es amigo de Doc, un científico que ha construido una máquina del tiempo. </p>
+        <div class="link">
+          <a href="#">Sinopsis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="botonesAlquilar">
+    <button onclick="juegosDelHambre ()">Alquilar</button>
+    <button onclick="jurassicWord()">Alquilar</button>
+    <button onclick="volverAlFuturo()">Alquilar</button>
+  </div>
+</div>
+
+  <footer class="footer">
+    <div>
+      <p id="cristian">Christian Garcia</p>
+      <p id="lucas">Lucas Esttamatti</p>
+      <div class="socialCristian">
+        <a href="https://www.instagram.com/chris_gaarcia/" target="_blank"><img src="./img/instagram.png" class="social"
+            id="igCristian" alt="" /></a>
+        <a href="https://github.com/Chrisg98" target="_blank">
+          <img src="./img/gitHub.png" class="social" id=gitCristian /></a>
+      </div>
+      <div class="socialLucas">
+        <a href="https://www.instagram.com/esttamatti._/" target="_blank">
+          <img src="./img/instagram.png" class="social" id=igLucas /></a>
+        <a href="https://github.com/LucasEsttamatti" target="_blank">
+          <img src="./img/gitHub.png" class="social" id=gitLucas />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="./Js/movies.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

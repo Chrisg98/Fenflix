@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Catamaran:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    display: flex;
+    width: 100%;
+    height:100vh;
+    background-color: #5086c1;
+}
+
+.imagenPortada {
+    display: flex;
+    width: 50%;
+    height:100vh;
+}
+.contenidoPortada{
+  width: 50%;
+ }
+.tituloPortada {
+    display: flex;
+    justify-content: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size:15vh;
+    margin-top:5vh;
+    color: rgb(21 32 43);
+}
+.logoPortada{
+ display: flex;
+ justify-content: center;
+}
+.logo{
+height:250px;
+margin-top:45px ;
+    
+}
+
+.botonesPortada{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top:10vh;
+}
+
+.botones{
+    width:20vw;
+    height:22vh;
+    border-radius:45px;
+    font-family: 'Aldrich', sans-serif;
+    font-size:4.5vh;
+    background-color:rgb(21 32 43);
+    color: #84b6f4;;
+}
+
+.botones:hover {
+    background-color:#ffffff ;
+    color:rgb(21 32 43); 
+    cursor: pointer;
+    border: #ffffff solid 2px;
+    font-weight:bold;
+    border:5px solid rgb(21 32 43);; 
+}
